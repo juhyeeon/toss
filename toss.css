@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .center-cover-img {
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0) 10%,
+        rgba(255, 255, 255, 0) 25%,
+        rgba(255, 255, 255, 0) 40%,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 1) 85%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      url(./images/static.toss.im/assets/homepage/newtossim/new_main.png);
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 880px;
+  }
+
+
+
+  .nav-menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    grid-gap: 30px;
+   
+  }
+
+  .nav-menu ul li {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .nav-menu {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    list-style-type: none;
+    
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  
+  }
+
+
+  .search-box {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    
+  }
+
+  .search-explain {
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -10px;
+    color: black;
+  }
+
+  .button-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  .search-button {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 750;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+  }
